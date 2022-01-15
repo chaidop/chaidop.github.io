@@ -50,24 +50,3 @@ input {
 
 /* ##################################################################### */
 
-@media only screen and (max-width: 824px) {
-    .content {
-        grid-area: box3;
-        padding: 0px;
-        width: 95%;
-    }
-    .pageTitle {
-        font-size: 30px;
-    }
-    .contact_form {
-        margin-top: 10px;
-    }
-    .form_control {
-        margin-top: 10px;
-        width: 95%;
-        font-size: 20px;
-    }
-    .submit {
-        font-size: 25px;
-    }
-}
