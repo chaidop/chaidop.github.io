@@ -11,7 +11,7 @@ h6 {
 
 body {
     background-color: rgb(31, 54, 153) !important;
-    background-image: 'space-background-galaxies-milky-way-galaxy-beautiful-cosmos_370567-1447.jpg';
+    background-image: url("images/space-background-galaxies-milky-way-galaxy-beautiful-cosmos_370567-1447.jpg");
     /* background-color: red; */
 }
 
