@@ -125,8 +125,8 @@ body {
 
 .trending {
     display: block;
-    width: 980px;
-    height: 580px;
+    width: 480px;
+    height: 380px;
     margin: 10px auto 10px;
 }
 
@@ -216,7 +216,28 @@ ol.sectionText {
     width: 300px;
     height: 300px;
 }
-
+.card_name {
+    color: #EDEDED;
+    display: block;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    
+    background-color: #3B5998;
+}
+.card_name h3{
+    color: #EDEDED;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
 .overlay1 {
     position: absolute;
     bottom: 100%;
@@ -227,6 +248,7 @@ ol.sectionText {
     width: 300px;
     height: 0;
     transition: .5s ease;
+    border-radius: 5px;
 }
 
 .container1:hover .overlay1 {
@@ -237,13 +259,14 @@ ol.sectionText {
 .text1 {
     color: white;
     font-size: 20px;
-    position: absolute;
+    /*position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: center;*/
+    font-size: 15px;
 }
 
 .contact {
@@ -255,7 +278,10 @@ ol.sectionText {
     margin-left: auto;
     margin-right: auto;
 }
-
+.contact-div{
+    color:black; 
+    text-align: center;
+}
 .sub {
     background-color: white;
     margin-top: 50px;
@@ -282,7 +308,7 @@ footer {
     display: block;
     text-align: center; 
     position: absolute;
-    height: 150px;
+    height: 185px;
     margin-block-start: 1em;
     margin-block-end: 1em;
 	background-color: #27223a;
@@ -327,6 +353,7 @@ li.breadcrumb-item{
 	margin-block-start: 1em;
     margin-block-end: 1em;
 	text-align: center;
+    
 	/*background-color: #ebdfe7;*/
 }
 ol.breadcrumb{
@@ -335,6 +362,7 @@ ol.breadcrumb{
 	text-align: center;
 	background-color: #27223a;
     color: #eeeeee;
+    font-weight: bold;
 }
 
 nav.breadcrumb-item{
@@ -348,14 +376,15 @@ nav.breadcrumb-item{
 /* footer social icons */
 
 ul.social-network {
+    justify-content: center;
+    text-align:center;
     list-style: none;
-    display: inline;
     margin-left: 0 !important;
     padding: 0;
   }
   
   ul.social-network li {
-    display: inline;
+    display:inline-block;
     margin: 0 5px;
   }
   
@@ -366,12 +395,12 @@ ul.social-network {
     background-color: #3B5998;
   }
   
-  .social-network a.icoLinkedin:hover {
+  .social-network a.icoInstagram:hover {
     background-color: #007bb7;
   }
   
   .social-network a.icoFacebook:hover i,
-  .social-network a.icoLinkedin:hover i {
+  .social-network a.icoInstagram:hover i {
     color: #fff;
   }
   
